@@ -1,0 +1,35 @@
+# test
+body {margin: 0; padding: 0; background: #ccc;}
+.layout {width: 100%; border: none; background: #e6e6e6;}
+.layout td {vertical-align: top;}
+.column {width: 200px; background: #D99B9B;}
+.header {background: #A81C1C url(header.gif);}
+.footer {background: #A81C1C url(footer.gif);}
+</style>
+</head>
+<body>
+<table class="layout" cellspacing="0">
+<tr>
+<td colspan="3" class="header">
+<!--header-->
+</td>
+</tr>
+<tr>
+<td class="column">
+<!--left column here-->
+</td>
+<td class="content">
+<!--content here-->
+</td>
+<td class="column">
+<!--right column here-->
+</td>
+</tr>
+<tr>
+<td colspan="3" class="footer">
+<!--footer-->
+</td>
+</tr>
+</table>
+</body>
+</html>
